@@ -1,0 +1,93 @@
+var json1,json2,json3,json4,json5,json6;
+const egyptienne =
+{
+    "mot1":"دكتور",
+    "mot2":"ماشي",
+    "mot3":"بص",
+    "mot4":"ايه رأيك",
+    "mot5":"ازيك",
+    "mot6":"إطلع برا",
+    "mot7":"ياض",
+    "mot8":"النهاردة",
+    "mot9":"اوطة"
+};
+json1= JSON.stringify(egyptienne);
+document.getElementById('text2').innerHTML=json1;
+
+const iraq=
+    {
+        "mot1":"ما ندري",
+        "mot2":"خوش",
+        "mot3":"باوع",
+        "mot4":"شنو رأيك",
+        "mot5":"ولي",
+        "mot6":"ترجية",
+        "mot7":"جام",
+        "mot8":"صوجك",
+        "mot9":"سكملي",
+        "mot10":"اثول"
+    };
+	json= JSON.stringify(iraq);
+    document.getElementById('text2').innerHTML= json2;
+    const saoudite={
+        "mot1":"أبخض",
+        "mot2":"أشبح",
+        "mot3":"أرحَب",
+        "mot4":"إش لونك",
+        "mot5":"كيف أخبارك",
+        "mot6":"تنكة",
+        "mot7":"ادعس",
+        "mot8":"اخصر",
+        "mot9":"اسْبَطْ"
+        };
+		json3 = JSON.stringify(saoudite);
+        document.getElementById('text2').innerHTML= json3;
+        
+        const libanon=
+        {
+            "mot1":"اسكربينة",
+            "mot2":"شنتير",
+            "mot3":"ائشع",
+            "mot4":"انجع",
+            "mot5":"التختية",
+            "mot6":"البراد",
+            "mot7":"شاضوم",
+            "mot8":"تقبرني",
+            "mot9":"تقبرني",
+            "mot10":"بتمون",
+            "mot0":"يأوّش"
+        };
+        json4 = JSON.stringify(libanon);
+        document.getElementById('text2').innerHTML= json4;
+        const palastine=
+        {
+            "mot1":"الرمزون",
+            "mot2":"بتخوت",
+            "mot3":"بديش",
+            "mot4":"بابوج",
+            "mot5":"بسكليت",
+            "mot6":"بدی",
+            "mot7":"تبربح",
+            "mot8":"طاشِش",
+            "mot9":"طربش",
+            "mot10":"طَقِع",
+            "mot0":"قَبَضَايْ"
+        };
+		json5 = JSON.stringify(palastine);
+        document.getElementById('text2').innerHTML= json5;
+        const tunisienne=
+        {
+            "mot1":"ما نعرش",
+            "mot2":"شوف",
+            "mot3":"أهلا بيك",
+            "mot4":"شنوة أحوالك",
+            "mot5":"فريجيدر",
+            "mot6":"كرهبة",
+            "mot7":"مغرفة",
+            "mot8":"بيت",
+            "mot9":"دار",
+            "mot10":"حوش",
+            "mot0":"جردة"
+        };
+		json6= JSON.stringify(tunisienne);
+        document.getElementById('text2').innerHTML= json6;

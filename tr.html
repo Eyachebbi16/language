@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+     <meta charset="utf-8" />
+    <title>	Traduction Des Langages Arab</title>
+    <link rel="icon" type="image/png" sizes="50*50" href="icon.png">
+    <link rel="stylesheet" type="text/css" href="Traduction.css">
+    <script type="text/javascript" src="translat.js"></script>
+	<script type="text/javascript" src="trad.json"></script>
+    
+<body>
+	<h2 class="titre"> ترجمة اللهجات العربية </h2>
+	<form name='f' method="POST" action="traduc.php">
+		<section>
+			<div class="entre">
+				<p align = "right"> اكتب الكلمة باللغة العربية الفصحى <br>
+				<textarea id="text1" class="paragraphe" rows="5" name="S1" cols="20" onkeyup="tarjem()"> 
+				</textarea></p>
+				<div class="sortie">
+					<p> اللهجات العربية <select id="languages" size="1" name="D1"> 
+						<option></option>
+						<option class="option">التونسية</option>
+						<option class="option">المصرية</option>
+						<option class="option">السعودية</option>
+						<option class="option">العراقية</option>
+						<option class="option">اللبنانية</option>
+						<option class="option">الفلسطنية</option>
+						</select>
+						<textarea id="text2" class="paragraphe" rows="5" name="S1" cols="20"> 
+				</textarea>
+					</p>
+				</div>
+			</div>
+		</section>
+	</form> 
+</body>
+</html>
